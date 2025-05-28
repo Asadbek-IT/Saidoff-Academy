@@ -1,2 +1,2 @@
 ﻿# Saidoff-Academy
-// Uzur responsive qilishga ulgurmadim(
+// responsive oxirgacha tayor emas!
