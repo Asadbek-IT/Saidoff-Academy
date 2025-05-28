@@ -1,0 +1,175 @@
+.choose{
+    position: relative;
+    top: 880px;
+
+    &__maintext{
+        text-align: center;
+        color: white;
+    }
+
+    &__abstract{
+        /* abstract41g */
+
+        position: absolute;
+        left: 500px;
+        top: 40px;
+
+        mix-blend-mode: hard-light;
+        animation: spin 100s linear infinite; 
+    }
+
+    &__title{
+        /* Nega bizni tanlashadi? */
+
+        font-family: 'Montserrat';
+        font-size: 4rem;
+        font-weight: 700;
+        -webkit-background-clip: text;
+        background: linear-gradient(180deg , #ffffff , #9999);
+        background-clip: text;
+        color: transparent;
+
+        opacity: 0.9;
+
+    }
+
+    &__text{
+        /* Bizning maqsadimiz zamonaviy IT kasblarini qisqa muddatda, sifatli va samarali ta’lim berish. Havaskorlikdan professional IT mutaxassisi bo‘lishga shoshiling! */
+
+        font-family: 'Montserrat';
+        font-size: 1rem;
+        font-weight: 300;
+        -webkit-background-clip: text;
+        background-color: white;
+        background-clip: text;
+        color: transparent;
+        position: relative;
+        left: 33px;
+        top: 38px;
+        width: 640px;
+        height: 78px;
+        margin: auto;
+    }
+
+    &__card1{
+        width: 576px;
+        height: 767px;
+
+        /* Rectangle 11 */
+
+        box-sizing: border-box;
+
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid #656565;
+        backdrop-filter: blur(2.5px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 24px;
+
+        position: relative;
+        top: 80px;
+        left: 350px;        
+    }
+
+    &__card-title{
+        font-family: 'Montserrat';
+        font-size: 3rem;
+        font-weight: 700;
+        -webkit-background-clip: text;
+        background-color: white;
+        background-clip: text;
+        color: transparent;
+        position: relative;
+        left: 125px;
+        top: 70px;
+    }
+
+    &__card-text{
+        font-family: 'Montserrat';
+        font-size: 1rem;
+        font-weight: 300;
+        -webkit-background-clip: text;
+        background-color: white;
+        background-clip: text;
+        color: transparent;
+        position: relative;
+        text-align: start;
+        left: 10px;
+        top: 130px;
+        width: 350px;
+        height: 108px;
+        margin: auto;
+    }
+
+    &__inbox{
+        position: relative;
+        top: -581px;
+        left: 620px;
+        display: flex;
+        gap: 30px;
+    }
+
+    &__inbox-card1{
+        width: 280px;
+        height: 767px;
+
+        /* Rectangle 11 */
+
+        box-sizing: border-box;
+
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid #656565;
+        backdrop-filter: blur(2.5px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 24px;
+
+    }
+
+    &__inbox-card2{
+        width: 280px;
+        height: 767px;
+
+        /* Rectangle 11 */
+
+        box-sizing: border-box;
+
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid #656565;
+        backdrop-filter: blur(2.5px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 24px;
+    }
+
+    &__inbox-img{
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    &__card-title1{
+        font-family: 'Montserrat';
+        font-size: 2rem;
+        font-weight: 700;
+        -webkit-background-clip: text;
+        background-color: white;
+        background-clip: text;
+        color: transparent;
+        width: 300px;
+        transform: rotate(270deg);
+        position: relative;
+        top: 150px;
+    }
+    
+    &__card-title2{
+        font-family: 'Montserrat';
+        font-size: 2rem;
+        font-weight: 700;
+        -webkit-background-clip: text;
+        background-color: white;
+        background-clip: text;
+        color: transparent;
+        width: 300px;
+        transform: rotate(270deg);
+        position: relative;
+        top: 150px;
+    }
+}

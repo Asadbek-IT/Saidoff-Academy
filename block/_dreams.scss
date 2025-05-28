@@ -1,0 +1,120 @@
+.dreams{
+    margin: 0;
+      padding: 0;
+      font-family: 'Montserrat';
+      font-weight: 500;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      position: relative;
+      top: 3100px;
+      left: -340px;
+
+    &__maintext{
+        text-align: start;
+        color: #ffffff;
+    }
+
+    &__img1{
+        z-index: 3232;
+        position: absolute;
+        left: 1400px;
+        top: 100px;
+        mix-blend-mode: hard-light;
+        animation: spin 100s linear infinite;
+    }
+
+    &__img2{
+        z-index: 3232;
+        position: absolute;
+        left: 1900px;
+        top: 500px;
+        mix-blend-mode: hard-light;
+        animation: spin 100s linear infinite;
+    }
+
+    &__img3{
+        z-index: 3232;
+        position: absolute;
+        left: 1400px;
+        top: 700px;
+        mix-blend-mode: hard-light;
+        animation: spin 100s linear infinite;
+    }
+
+    &__title{
+        font-family: 'Montserrat';
+        font-size: 3rem;
+        font-weight: 700;
+        -webkit-background-clip: text;
+        background-color: #ffffff;
+        background-clip: text;
+        color: transparent;
+
+        opacity: 0.9;
+
+        width: 659px;
+    }
+
+    &__text{
+        font-family: 'Montserrat';
+        font-size: 1rem;
+        font-weight: 300;
+        -webkit-background-clip: text;
+        background-color: white;
+        background-clip: text;
+        color: transparent;
+        position: relative;
+
+        width: 500px;
+        margin: 20px;
+    }
+}
+    .form-container {
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    label {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    input, select {
+      background: #1c1c1c;
+      border: none;
+      border-radius: 10px;
+      padding: 14px 16px;
+      color: white;
+      font-size: 14px;
+      width: 100%;
+      outline: none;
+    }
+
+    select {
+      appearance: none;
+    }
+
+    .select-wrapper {
+      position: relative;
+    }
+
+    .select-wrapper::after {
+      content: "▾";
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+      color: #aaa;
+    }
+
+    option {
+      background-color: #1c1c1c;
+      color: white;
+    }

@@ -1,0 +1,35 @@
+@import "./block/block"
+
+/* Responsive styles for screens up to 430px */
+@media (max-width: 430px) {
+  body {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .wrapper, .container {
+    padding: 0 10px;
+    width: 100%;
+  }
+
+  nav, header, footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-size: 90%;
+  }
+
+  .button, button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+}

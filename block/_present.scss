@@ -1,0 +1,36 @@
+.present{
+    position: relative;
+    top: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    &__title{
+        font-family: 'Montserrat';
+        font-size: 4rem;
+        font-weight: 700;
+        -webkit-background-clip: text;
+        background: linear-gradient(180deg , #ffffff , #999999);
+        background-clip: text;
+        color: transparent;
+
+        opacity: 0.9;
+    }
+
+    &__star{
+        /* abstract11g */
+        z-index: -3;
+        position: absolute;
+        top: 140px;
+        left: 750px;
+        mix-blend-mode: hard-light;
+        animation: spin 100s linear infinite; 
+    }
+
+    &__video-start{
+        position: relative;
+        top: -165px;
+        left: -350px;
+    }
+}
